@@ -1,0 +1,70 @@
+/* Estilização comum para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+  }
+  
+  /*Cabeçalho com fundo escuro e texto branco*/
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /*Estilo dos links do menu de navegação*/
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  /*Área principal da página*/
+  main {
+    padding: 2em;
+    min-height: 100vh;
+    /*max-width: 800px;*/
+    margin: auto;
+    padding-bottom: 4em; /*Evita sobreposição do footer*/
+    background: url('images/fundo1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /*Rodapé fixo na parte inferior*/
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+  /*Estilo visual do formulário*/
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*Campos de entrada e área de texto*/
+  form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /*Botão de envio do formulário*/
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8em;
+  }
+  
