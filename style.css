@@ -29,7 +29,7 @@ body {
     /*max-width: 800px;*/
     margin: auto;
     padding-bottom: 4em; /*Evita sobreposição do footer*/
-    background: url('images/fundo1.png');
+    background: url('fundo1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
